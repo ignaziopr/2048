@@ -1,0 +1,14 @@
+opam-version: "2.0"
+name: "cs3110-final"
+version: "~dev"
+synopsis: ""
+maintainer: "Ellie Dawson <efd45@cornell.edu>"
+authors: "Ellie Dawson <efd45@cornell.edu>"
+depends: [
+  "specify-dependencies-here" {>= "optional-version"}
+]
+build: [
+  ["./configure" "--prefix=%{prefix}%"]
+  [make]
+]
+dev-repo: "git+https://"

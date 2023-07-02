@@ -1,0 +1,12 @@
+Make sure to update opam by running this command:
+$ opam update 
+
+Upgrade opam by running this command:
+$ opam upgrade
+
+Install ANSITerminal, run this command:
+$ opam install ANSITerminal
+
+In the project's directory (same directory as the Makefile) run this command: 
+$ make play
+to play the game.
